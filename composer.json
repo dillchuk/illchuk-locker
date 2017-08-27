@@ -1,0 +1,21 @@
+{
+    "name": "illchuk/illchuk-locker",
+    "description": "Prevent an action for some long amount of time. Hours, days, months, years.",
+    "license": "MIT",
+    "homepage": "https://github.com/dillchuk/illchuk-locker",
+    "authors": [
+        {
+            "name": "Derek Illchuk",
+            "email": "derek@illchuk.com",
+            "homepage": "https://www.derekillchuk.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "IllchukLocker": "src/"
+        }
+    }
+}
