@@ -19,7 +19,7 @@
     },
 	"require-dev": {
         "phpunit/phpunit": "~4.0",
-		"phpunit/dbunit": "dev-master"
+		"phpunit/dbunit": "2.0.x-dev"
     },
     "autoload": {
         "psr-0": {
