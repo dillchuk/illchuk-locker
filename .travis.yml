@@ -12,7 +12,7 @@ services:
 env:
   global:
     - DB_HOST="127.0.0.1"
-    - DB_NAME="illchuk-locker"
+    - DB_NAME="illchuklock"
     - DB_USER="travis"
     - DB_PASS=""
 
