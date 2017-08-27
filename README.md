@@ -1,6 +1,6 @@
 # IllchukLock
 
-[![Build Status](https://travis-ci.org/BeauCal/beaucal-long-throttle.svg?branch=master)](https://travis-ci.org/BeauCal/beaucal-long-throttle)
+[![Build Status](https://travis-ci.org/dillchuk/illchuk-locker.svg?branch=master)](https://travis-ci.org/dillchuk/illchuk-locker)
 
 **Now with 100% code coverage.**
 
