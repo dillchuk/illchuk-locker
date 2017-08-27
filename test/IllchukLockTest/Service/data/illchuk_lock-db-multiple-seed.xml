@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<dataset>
+    <illchuk_lock key="1::past" end_datetime="2000-01-01" />
+    <illchuk_lock key="2::past" end_datetime="2000-01-01" />
+    <illchuk_lock key="4::past" end_datetime="2000-01-01" />
+    
+    <illchuk_lock key="1::forever" end_datetime="3000-01-01" />
+</dataset>
