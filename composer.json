@@ -17,6 +17,9 @@
 		"zendframework/zend-servicemanager": "^3.0",
 		"zendframework/zend-math": "^2.5.2"
     },
+	"require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
     "autoload": {
         "psr-0": {
             "IllchukLock": "src/"
