@@ -3,6 +3,7 @@
 namespace IllchukLock\Term;
 
 use DateTime;
+use DateTimeZone;
 
 /**
  * End date in, end date out.
@@ -19,6 +20,9 @@ class DateTimeEnd extends AbstractTerm {
      */
     public function __construct($endDate) {
         $this->endDate = clone $endDate;
+        $this->endDate->setTimezone(
+        new DateTimeZone(date_default_timezone_get())
+        );
     }
 
     /**

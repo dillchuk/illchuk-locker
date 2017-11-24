@@ -25,4 +25,12 @@ class DateTimeUnitTest extends \PHPUnit_Framework_TestCase {
         new DateTimeUnit(0, 'month');
     }
 
+    public function testTimezoneDefault() {
+        $dateTimeUnit = new DateTimeUnit(5, 'months');
+        $this->assertEquals(
+        date_default_timezone_get(),
+        $dateTimeUnit->getEndDate()->getTimezone()->getName()
+        );
+    }
+
 }
