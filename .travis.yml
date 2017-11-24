@@ -13,8 +13,6 @@ env:
     - DB_USER="travis"
 
 before_script:
- - chmod +x test/install-apcu.sh
- - test/install-apcu.sh
  - phpenv config-add test/apc.ini
  - mysql -uroot -e "CREATE DATABASE $DB_NAME;" || aborterror "Unable to create database."
  - mysql -uroot $DB_NAME < data/illchuk_lock.sql || aborterror "Unable to import table."
